@@ -1,10 +1,13 @@
-import styled from "styled-components"
-import EstilosGlobais from "./components/EstilosGlobais"
+import styled from "styled-components";
+import EstilosGlobais from "./components/EstilosGlobais";
 import Cabecalho from "./components/Cabecalho"
-import BarraLateral from "./components/BarraLateral"
-import Banner from "./components/Banner"
-import bannerBackground from './assets/banner.png'
-import Galeria from "./components/Galeria"
+import BarraLateral from "./components/BarraLateral";
+import Banner from "./components/Banner";
+import bannerBackground from './assets/banner.png';
+import Galeria from "./components/Galeria";
+
+import fotos from './fotos.json';
+import { useState } from "react";
 
 
 const FundoGradiente = styled.div`
@@ -27,8 +30,9 @@ const ConteudoGaleria = styled.section`
   flex-direction: column;
   flex-grow: 1;
 `
-function App() {
+const App = () => {
   
+  const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos)
   return (
     <FundoGradiente>
       <EstilosGlobais />
@@ -41,7 +45,7 @@ function App() {
               texto="A galeria mais completa de fotos de nações!"
               backgroundImage={bannerBackground}
             />
-            <Galeria /> 
+            <Galeria fotos={fotosDaGaleria} /> 
           </ConteudoGaleria>
         </MainContainer>
       </AppContainer>
