@@ -1,12 +1,6 @@
 import styled from "styled-components"
 import tags from "./tags.json"
 
-const TagsContainer = styled.section`
-    display: flex;
-    align-items: center;
-    margin-top: 56px;
-    gap: 64px;
-`
 const TagTitulo = styled.h3`
     color: #D9D9D9;
     font-size: 24px;
@@ -32,13 +26,22 @@ const Div = styled.div`
     gap: 24px;
 `
 
-const Tags = () =>{
-    return <TagsContainer>
-        <TagTitulo>Busque por tags:</TagTitulo>
-        <Div>
-            {tags.map(tag => <Tag key={tag.id}>{tag.titulo}</Tag>)}
-        </Div>
-    </TagsContainer>
+const BarraTags = styled.div`
+display: flex;
+align-items: center;
+gap: 64px;
+margin-top: 56px;
+`
+
+const Tags = ({ setTag }) =>{
+    return (
+        <BarraTags>
+            <TagTitulo>Busque por tags:</TagTitulo>
+            <Div>
+                {tags.map(tag => <Tag key={tag.id} onClick={() => setTag(tag.tag)}>{tag.titulo}</Tag>)}
+            </Div>
+        </BarraTags>
+    )
 }
 
 export default Tags

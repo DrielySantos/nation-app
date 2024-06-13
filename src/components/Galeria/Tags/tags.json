@@ -1,22 +1,26 @@
 [
     {
         "id": 0,
-        "titulo": "Todas"
+        "titulo": "Brasil",
+        "tag":0
     },
     {
         "id": 1,
-        "titulo": "Brazil"
+        "titulo": "Israel",
+        "tag":1
     },
     {
         "id": 2,
-        "titulo": "Poland"
+        "titulo": "Polônia",
+        "tag":2
     },
     {
         "id": 3,
-        "titulo": "South Korea"
+        "titulo": "Coreia do Sul",
+        "tag":3
     },
     {
         "id": 4,
-        "titulo": "Gana"
+        "titulo": "Todas"
     }
 ]
