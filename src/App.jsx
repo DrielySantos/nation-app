@@ -8,6 +8,7 @@ import Galeria from "./components/Galeria";
 import ModalZoom from "./components/ModalZoom";
 import fotos from './fotos.json';
 import { useEffect, useState } from "react";
+import Rodape from "./components/Rodape";
 
 
 const FundoGradiente = styled.div`
@@ -91,7 +92,7 @@ const App = () => {
         aoFechar={() => setFotoComZoom(null)}
         aoAlternarFavorito={aoAlternarFavorito}
       />
-      
+    <Rodape/>
     </FundoGradiente>
   )
 }
