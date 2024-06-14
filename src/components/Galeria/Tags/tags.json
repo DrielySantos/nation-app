@@ -2,25 +2,30 @@
     {
         "id": 0,
         "titulo": "Brasil",
-        "tag":0
+        "tag":1
     },
     {
         "id": 1,
         "titulo": "Israel",
-        "tag":1
+        "tag":2
     },
     {
         "id": 2,
         "titulo": "Polônia",
-        "tag":2
+        "tag":3
     },
     {
         "id": 3,
         "titulo": "Coreia do Sul",
-        "tag":3
+        "tag":4
     },
     {
         "id": 4,
+        "titulo": "Espanha",
+        "tag":5
+    },
+    {
+        "id": 5,
         "titulo": "Todas"
     }
 ]

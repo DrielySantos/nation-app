@@ -4,69 +4,69 @@
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-1.png",
     "id": "1",
-    "tagId": 2
+    "tagId": 1
   },
   {
-    "titulo": "Auckland - Nova Zelândia",
+    "titulo": "Cidade de Madrid (Chafariz de Cibeles) - Espanha",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-2.png",
     "id": "2",
-    "tagId": 2
+    "tagId": 5
   },
   {
     "titulo": "Israel - Cidade de Jerusalém",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-3.png",
     "id": "3",
-    "tagId": 3
+    "tagId": 2
   },
   {
-    "titulo": "Palmyra - Cidade na Síria",
+    "titulo": "Palacio em Granada (Alhambra) - Espanha",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-4.png",
     "id": "4",
-    "tagId": 2
+    "tagId": 5
   },
   {
     "titulo": "Cracóvia - Polônia",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-5.png",
     "id": "5",
-    "tagId": 1
+    "tagId": 3
   },
   {
-    "titulo": "Santo Domingo - Republica Dominicana",
+    "titulo": "Gyeongbokgung (Seul) - Coreia do Sul",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-6.png",
     "id": "6",
     "tagId": 4
   },
   {
-    "titulo": "Punta del Este - Uruguai",
+    "titulo": "Posnânia - Polônia",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-7.png",
     "id": "7",
-    "tagId": 2
+    "tagId": 3
   },
   {
-    "titulo": "Busan - Coreia do Sul",
+    "titulo": "Aldeia Hanok de Bukchon - Coreia do Sul",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-8.png",
     "id": "8",
     "tagId": 4
   },
   {
-    "titulo": "Luanda - Angola",
+    "titulo": "Salvador - Bahia",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-9.png",
     "id": "9",
     "tagId": 1
   },
   {
-    "titulo": "Zurique - Suíça",
+    "titulo": "Tiberíades - Cidade em Israel",
     "fonte": "Pinterest",
     "path": "/imagens/galeria/foto-10.png",
     "id": "10",
-    "tagId": 1
+    "tagId": 2
   }
 ]
